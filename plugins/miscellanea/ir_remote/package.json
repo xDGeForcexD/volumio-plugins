@@ -1,0 +1,21 @@
+{
+	"name": "ir_remote",
+	"version": "1.0.0",
+	"description": "Control HiFi-Amp via Infrared Code (e.g On / Off on Playing)",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "xDGeForcexD",
+	"license": "ISC",
+	"volumio_info": {
+		"prettyName": "ir_remote",
+		"icon": "fa-lightbulb-o",
+		"plugin_type": "miscellanea"
+	},
+	"dependencies": {
+		"fs-extra": "^0.28.0",
+		"kew": "^0.7.0",
+		"v-conf": "^1.4.0"
+	}
+}
